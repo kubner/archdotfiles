@@ -5,7 +5,7 @@ SAVEHIST=10000
 bindkey -v
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
-zstyle :compinstall filename '/home/kub/.zshrc'
+zstyle :compinstall filename '$HOME/.zshrc'
 
 #Basic auto/tab complete
 autoload -U compinit
@@ -21,7 +21,7 @@ setopt interactive_comments
 export EDITOR="nvim"
 export TERMINAL="alacritty"
 export BROWSER="firefox"
-export PATH="/home/kub/.local/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 
 # Load plugins
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh 2>/dev/null
