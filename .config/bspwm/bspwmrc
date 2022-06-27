@@ -41,7 +41,7 @@ xrdb -load ~/.Xresources
 xsetroot -cursor_name left_ptr
 xset r rate 180 35
 $HOME/.config/polybar/launch.sh
-xwallpaper --zoom $HOME/pix/wallpapers/1654557456348.jpg &
+xwallpaper --zoom $HOME/.local/share/1654557456348.jpg &
 start-pulseaudio-x11 &
 batsignal -b -e &
 xidlehook --not-when-audio --not-when-fullscreen --timer 1200 'systemctl suspend' '' &
