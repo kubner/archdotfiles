@@ -1,0 +1,13 @@
+inputbar {
+    enabled: false;
+  }
+listview {
+    lines: 6;
+  }
+element-icon {
+    size: 0;
+    padding: 15 5;
+  }
+window {
+    width: 15%;
+  }
