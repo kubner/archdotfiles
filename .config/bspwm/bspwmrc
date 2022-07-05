@@ -39,9 +39,9 @@ bspc rule -a Pavucontrol state=floating
 #autostart
 xrdb -load ~/.Xresources
 xsetroot -cursor_name left_ptr
-xset r rate 180 35
+xset r rate 170 35
 $HOME/.config/polybar/launch.sh
-xwallpaper --zoom $HOME/.local/share/1655684056046.jpg &
+setbg &
 start-pulseaudio-x11 &
 batsignal -b -e &
 xidlehook --not-when-audio --not-when-fullscreen --timer 1200 'systemctl suspend' '' &
