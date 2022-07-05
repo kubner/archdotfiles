@@ -5,8 +5,8 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 bspc monitor -d         
 
 bspc config border_width          2
-bspc config window_gap            9
-bspc config focused_border_color  "#c5c8c6"
+bspc config window_gap            10
+bspc config focused_border_color  "#777777"
 bspc config normal_border_color   "#444444"
 bspc config split_ratio           0.52
 bspc config borderless_monocle    true
@@ -41,7 +41,7 @@ xrdb -load ~/.Xresources
 xsetroot -cursor_name left_ptr
 xset r rate 180 35
 $HOME/.config/polybar/launch.sh
-xwallpaper --zoom $HOME/.local/share/1654557456348.jpg &
+xwallpaper --zoom $HOME/.local/share/1655684056046.jpg &
 start-pulseaudio-x11 &
 batsignal -b -e &
 xidlehook --not-when-audio --not-when-fullscreen --timer 1200 'systemctl suspend' '' &
