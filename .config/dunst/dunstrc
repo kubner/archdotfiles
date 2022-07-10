@@ -97,9 +97,9 @@
     timeout = 10
 
 [urgency_critical]
-    background = "#900000"
+    background = "#a54242"
     foreground = "#ffffff"
-    frame_color = "#ff0000"
+    frame_color = "#900000"
     timeout = 0
 
 # vim: ft=cfg
