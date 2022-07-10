@@ -1,11 +1,11 @@
 configuration {
 	modi: "window,drun,combi";
-	font: "monospace 8.5";
+	font: "monospace 9";
 	show-icons: true;
 	icon-theme: "Papirus";
 	sort: true;
 	sorting-method: "normal";
-	dpi: 143;
+	dpi: 128;
 display-window: "Window";
 display-drun: "Applications";
   	kb-delete-entry: "Shift+Delete";
