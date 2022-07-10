@@ -20,7 +20,7 @@ setopt interactive_comments
 
 export EDITOR="nvim"
 export TERMINAL="alacritty"
-export BROWSER="firefox"
+export BROWSER="brave"
 export PATH="$HOME/.local/bin:$PATH"
 
 # Load plugins
